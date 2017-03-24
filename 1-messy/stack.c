@@ -7,11 +7,6 @@ void push(int *v, int *n, int el)
     (*n)++;
 }
 
-int top(int *v, int *n)
-{
-    return v[*n - 1];
-}
-
 int pop(int *v, int *n)
 {
     int ret;
@@ -21,6 +16,11 @@ int pop(int *v, int *n)
     (*n)--;
 
     return ret;
+}
+
+int top(int *v, int *n)
+{
+    return v[*n - 1];
 }
 
 int is_empty(int *v, int *n)
