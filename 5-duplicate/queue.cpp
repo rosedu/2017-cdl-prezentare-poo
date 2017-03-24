@@ -8,6 +8,7 @@ Queue::Queue(int capacity)
     // Would 'capacity = capacity;' work?
     this->capacity = capacity;
     this->data = new int[capacity];
+    this->size = 0;
 
     this->head = 0;
     this->tail = 0;
