@@ -13,7 +13,7 @@ public:
     {
         head = 0;
     }
-    // Notice that you don't have to explicitly add the "this parameter"
+    // Notice that you don't have to explicitly add the "this" parameter
     void push(int element)
     {
         data[head] = element;

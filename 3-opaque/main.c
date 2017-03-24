@@ -20,7 +20,7 @@ int main()
 
     printf("is_empty: %s\n", stack_is_empty(stack) ? "True" : "False");
 
-    // Can I do this?
+    // TODO: Can I do this?
     // stack->data[5] = 42;
 
     stack_free(stack);

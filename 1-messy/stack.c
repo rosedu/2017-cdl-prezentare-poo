@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 
+// TODO: What would you improve here design-wise?
+
 void push(int *v, int *n, int el)
 {
     v[*n] = el;

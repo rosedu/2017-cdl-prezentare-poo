@@ -12,7 +12,7 @@ public:
     // Constructors have no return type, they just have the same name as the
     // class
     Stack(int capacity);
-    // Notice that you don't have to explicitly add the "this parameter"
+    // Notice that you don't have to explicitly add the "this" parameter
     void push(int element);
     int pop(void);
     int top(void);

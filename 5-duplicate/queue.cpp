@@ -5,7 +5,7 @@
 
 Queue::Queue(int capacity)
 {
-    // Would 'capacity = capacity;' work?
+    // TODO: Would 'capacity = capacity;' work?
     this->capacity = capacity;
     this->data = new int[capacity];
     this->size = 0;

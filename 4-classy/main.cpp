@@ -19,7 +19,7 @@ int main()
 
     printf("is_empty: %s\n", stack.is_empty() ? "True" : "False");
 
-    // Can I do this?
+    // TODO: Can I do this?
     // stack.data[5] = 42;
 
     return 0;
