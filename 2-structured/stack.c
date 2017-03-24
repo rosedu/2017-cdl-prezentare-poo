@@ -24,6 +24,11 @@ int pop(struct stack *s)
     return ret;
 }
 
+int top(struct stack *s)
+{
+    return s->data[s->head - 1];
+}
+
 int is_empty(struct stack *s)
 {
     return s->head == 0;
