@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-struct stack 
+struct stack
 {
     int head;
     int data[10];
@@ -18,9 +18,9 @@ int pop(struct stack *s)
     int ret;
 
     ret = s->data[s->head - 1];
-    
+
     s->head--;
-  
+
     return ret;
 }
 
