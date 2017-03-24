@@ -7,21 +7,21 @@
 
 void test_container(Container *container)
 {
-    printf("is_empty: %s\n", container->is_empty() ? "True" : "False");
+    // printf("is_empty: %s\n", container->is_empty() ? "True" : "False");
 
-    for (int i = 1; i <= 5; i++)
-    {
-        container->push(i);
-        printf("get_size: %d\n", container->get_size());
-    }
+    // for (int i = 1; i <= 5; i++)
+    // {
+    //     container->push(i);
+    //     printf("get_size: %d\n", container->get_size());
+    // }
 
-    printf("is_empty: %s\n", container->is_empty() ? "True" : "False");
+    // printf("is_empty: %s\n", container->is_empty() ? "True" : "False");
 
-    while (!container->is_empty())
-    {
-        printf("top: %d\n", container->top());
-        container->pop();
-    }
+    // while (!container->is_empty())
+    // {
+    //     printf("top: %d\n", container->top());
+    //     container->pop();
+    // }
 }
 
 int main()
