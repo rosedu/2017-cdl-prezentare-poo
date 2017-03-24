@@ -42,9 +42,13 @@ int main()
     push(v, &n, 2);
     push(v, &n, 3);
 
+    printf("get_size: %d\n", get_size(v, &n));
+
     printf("%d\n", pop(v, &n));
     printf("%d\n", pop(v, &n));
     printf("%d\n", pop(v, &n));
+
+    printf("is_empty: %s\n", is_empty(v, &n) ? "True" : "False");
 
     return 0;
 }
