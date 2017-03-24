@@ -52,5 +52,8 @@ int main()
 
     printf("is_empty: %s\n", is_empty(&s) ? "True" : "False");
 
+    // Can I do this?
+    // s.data[5] = 42;
+
     return 0;
 }
